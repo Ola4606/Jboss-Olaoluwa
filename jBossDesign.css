@@ -1,0 +1,143 @@
+@charset "utf-8";
+/*The Olaoluwa's Website Css Design file
+Author: OLAOLUWA ADEYEMO
+Date:2019-10-14
+                */
+                @import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/*BODY STYLES*/
+body {
+  background-color: #000;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  margin: 0; 
+  padding: 0;}
+
+
+  /* Responsive page rules at bottom of style sheet */
+
+/*HEADER STYLES*/
+h1 {
+  color: #fff;
+  text-align: left;
+  font-size: 26px;
+  height: 75px;
+  
+  }
+
+h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  margin: 0 0 23px 0;}
+
+
+/*LIST STYLES*/s
+ul {
+  background-color: #584f4d;
+  border:none;
+  padding: 0;
+  margin: 0;}
+
+li {
+  background-color: #ec8b68;
+  color: #fff;
+  border-top: 1px solid #fe9772;
+  border-bottom: 1px solid #9f593f;
+  font-size: 24px;
+  letter-spacing: .05em;
+  list-style-type: none;
+  text-shadow: 2px 2px 1px #9f593f;
+  height: 50px;
+  padding-left: 1em;
+  padding-top: 10px;}
+
+
+
+
+/*PARAGRAPH STYLES*/
+p.normal{
+  	line-height: 25px;
+  	font-size: 19px;
+  	text-align: left;
+
+  }
+
+p#header{
+	line-height: 40px;
+}
+
+
+p {
+  background-color: #7f675c;
+  color: #e3dfdd; 
+  padding: 10px;
+  margin: 20px auto;
+  min-width: 20%; 
+  max-width: 80%; 
+  border-radius: 5px;
+  text-align: center;
+  text-shadow: -1px 1px 0 #333;
+  -webkit-box-shadow: inset 1px -1px 0 0 #a5948c;
+  box-shadow: inset 1px -1px 0 0 #a5948c;}
+
+
+/*LINK STYLES*/
+a:hover{
+	color: yellow;       /*I am picking a really bright colour intentionally.*/
+}
+
+a#normal{
+text-transform: uppercase;
+ text-decoration: underline;
+}
+
+/*TABLE STYLES*/
+table{
+	color:  #fff;
+}
+
+th#first{
+	text-align: left;
+	width: 55px;
+	height: 10px;
+}
+
+
+
+/*IMAGE STYLES*/
+p#imageWords {
+font-style: italic; 
+font-size: 39px;
+color: #fff;
+}
+
+img#car2{
+width: 1000px;
+ height: auto;
+ padding-left: 62px;
+}
+
+p#imageWords2{
+font-style: italic;
+ font-size: 39px;
+ color: #fff;
+}
+
+img#car{
+	width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
